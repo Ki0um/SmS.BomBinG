@@ -8,7 +8,7 @@ $(document).ready(() => {
         $('#logs').addClass('visually-hidden');
         var amount = $("#amount").val();
         var mobile = $("#mobile").val();
-        if (amount > 0 && mobile.length == 11) {
+        if (amount > 0 && mobile.length == 10) {
             var c = 0;
 
             const APIS = [
