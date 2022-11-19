@@ -21,9 +21,9 @@ $(document).ready(() => {
                     url: "http://robi.api.bongobd.com/api/login/send-otp",
                     body: `msisdn=88${mobile}&operator=all`
                 },
-                {
-                    method: 'GET',
-                    url: "https://sms.ignoredhaxor.xyz/api/v1/sms/single?channel=0xApp&number={mobile}&message={amount}"
+
+
+
                 {
                     method: 'GET',
                     url: `http://45.114.85.19:8080/v3/otp/send?msisdn=88${mobile}`
